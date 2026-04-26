@@ -1,0 +1,6 @@
+@Labb_3_bygga_ett_API_SUT25_avancerad_dotnet_HostAddress = http://localhost:5105
+
+GET {{Labb_3_bygga_ett_API_SUT25_avancerad_dotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
