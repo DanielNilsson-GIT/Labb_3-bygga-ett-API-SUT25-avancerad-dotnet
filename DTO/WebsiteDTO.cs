@@ -12,8 +12,6 @@
 
         public record AddNewWebsiteRequest() 
         {
-            public int PersonId { get; init; }
-            public int InterestId { get; init; }
             public string WebsiteURL{ get; init; }
         }
 
