@@ -78,11 +78,11 @@ response body:
 
 //Lägga till nya länkar för en specifik person och ett specifikt intresse
 /api/Person/AddNewLink/{PersonId}/{InterestId}
-RequestBody: {
-  "personId": 0,
-  "interestId": 0,
+RequestBody: 
+ {
   "websiteURL": "string"
 }
+
 
 REsponseBody: 
 {
